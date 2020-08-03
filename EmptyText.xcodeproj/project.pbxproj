@@ -168,6 +168,8 @@
 		B3AAA202244EADA2001AF532 = {
 			isa = PBXGroup;
 			children = (
+				B37842E324D7C18A00023758 /* README.md */,
+				B37842E524D7C2C000023758 /* readmeSource */,
 				B3AAA20D244EADA2001AF532 /* EmptyText */,
 				B3AAA220244EADA4001AF532 /* EmptyTextTests */,
 				B3AAA22B244EADA4001AF532 /* EmptyTextUITests */,
@@ -190,7 +192,6 @@
 		B3AAA20D244EADA2001AF532 /* EmptyText */ = {
 			isa = PBXGroup;
 			children = (
-				B37842E524D7C2C000023758 /* readmeSource */,
 				B37842E024D1710600023758 /* UserDefault */,
 				B37842DF24D170E000023758 /* Popover */,
 				B37842DE24D1706600023758 /* ColorSet */,
@@ -202,7 +203,6 @@
 				B3AAA218244EADA3001AF532 /* EmptyText.entitlements */,
 				B3976BB92456EFA600527661 /* EventMonitor.swift */,
 				B3976BC2245A9D2B00527661 /* HotKeyManager.swift */,
-				B37842E324D7C18A00023758 /* README.md */,
 			);
 			path = EmptyText;
 			sourceTree = "<group>";
