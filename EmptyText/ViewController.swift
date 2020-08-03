@@ -25,3 +25,13 @@ class ViewController: NSViewController {
 
 }
 
+
+extension ViewController {
+    static  func freshController() -> ViewController{
+        let storyboard = NSStoryboard.init(name: "Main", bundle: nil)
+        guard let vc = storyboard.instantiateController(withIdentifier: "ViewController") as? ViewController else {
+            fatalError("some wrong")
+        }
+        return vc
+    }
+}
