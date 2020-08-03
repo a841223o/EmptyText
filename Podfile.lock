@@ -1,0 +1,28 @@
+PODS:
+  - HotKey (0.1.2)
+  - PopoverResize (1.0)
+
+DEPENDENCIES:
+  - HotKey
+  - PopoverResize (from `https://github.com/dboydor/PopoverResize`)
+
+SPEC REPOS:
+  trunk:
+    - HotKey
+
+EXTERNAL SOURCES:
+  PopoverResize:
+    :git: https://github.com/dboydor/PopoverResize
+
+CHECKOUT OPTIONS:
+  PopoverResize:
+    :commit: b38df78ea0528e8ac4f42b339b4617d9e7fb7bf4
+    :git: https://github.com/dboydor/PopoverResize
+
+SPEC CHECKSUMS:
+  HotKey: ad59450195936c10992438c4210f673de5aee43e
+  PopoverResize: 31e863c90a443790672a1ef808b16655db81fe25
+
+PODFILE CHECKSUM: 0ff0da8e2b9968157f18dc2a0ec133a0f19baf43
+
+COCOAPODS: 1.9.1

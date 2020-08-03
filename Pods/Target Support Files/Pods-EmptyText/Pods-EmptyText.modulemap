@@ -1,0 +1,6 @@
+framework module Pods_EmptyText {
+  umbrella header "Pods-EmptyText-umbrella.h"
+
+  export *
+  module * { export * }
+}

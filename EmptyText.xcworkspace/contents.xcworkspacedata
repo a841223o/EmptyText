@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:EmptyText.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Pods"
+      name = "Products">
+      <FileRef
+         location = "build:HotKey.framework"
+         assignedFileDataType = "com.apple.framework">
+      </FileRef>
+      <FileRef
+         location = "build:Pods_EmptyText.framework"
+         assignedFileDataType = "com.apple.framework">
+      </FileRef>
+      <FileRef
+         location = "build:Pods_EmptyText_EmptyTextUITests.framework"
+         assignedFileDataType = "com.apple.framework">
+      </FileRef>
+      <FileRef
+         location = "build:Pods_EmptyTextTests.framework"
+         assignedFileDataType = "com.apple.framework">
+      </FileRef>
+      <FileRef
+         location = "build:PopoverResize.framework"
+         assignedFileDataType = "com.apple.framework">
+      </FileRef>
+   </Group>
+</Workspace>

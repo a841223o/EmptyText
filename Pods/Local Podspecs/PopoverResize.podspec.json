@@ -1,0 +1,23 @@
+{
+  "name": "PopoverResize",
+  "version": "1.0",
+  "summary": "A resizable NSPopover implementation written in Swift",
+  "description": "This framework allows you to drag-resize a NSPopover window\nThis framework supports macOS 10.11+, Xcode 9 and Swift 4.",
+  "homepage": "https://github.com/dboydor/PopoverResize",
+  "license": {
+    "type": "BSD",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "David Boyd": "dboydor@me.com"
+  },
+  "platforms": {
+    "osx": "10.11"
+  },
+  "source": {
+    "git": "https://github.com/dboydor/PopoverResize.git",
+    "tag": "1.0"
+  },
+  "source_files": "PopoverResize/PopoverResize",
+  "resources": "PopoverResize/PopoverResize/resources"
+}
