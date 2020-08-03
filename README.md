@@ -51,12 +51,19 @@ v1.0 : [下載連結](https://drive.google.com/file/d/1WHCyB2KvdhPbqyZviFLLB5fA6
 #### 支持
 可以透過各種方式來支持  **EmptyText** 的開發
 - 贊助
+
     希望這個項目持續更新且新增功能的大大們，可以選擇贊助我一杯可樂或是一頓晚餐，讓我有更多精神持續更新下去。
+    
     [![Donate](https://github.com/a841223o/EmptyText/blob/master/readmeSource/donate.gif)](https://www.paypal.com/paypalme/DongLunYou)
+    
 - 分享
+
     幫忙按個星星再分享給身邊的親朋好友
+    
 - 建議
+
     有任何有趣的點子都可以發個 Issue 讓我知道
+    
 - 測試
     bug！ bug！！ bug！！！ 的回報
 
