@@ -1,5 +1,6 @@
 
 ![image](https://github.com/a841223o/EmptyText/blob/master/readmeSource/head.png)
+
 **隨意快速貼上任意文字**
 速開啟關閉，快捷鍵功能讓你更方便使用，使用 3 分鐘便會發現上他的方便
 可以當作便利貼、提醒事項、紀錄大小事、作為一張空白紙讓你輕鬆無負擔的使用。
