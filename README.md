@@ -6,7 +6,7 @@
 快速開啟關閉，快捷鍵功能讓你更方便使用，使用 3 分鐘便會發現上他的方便，可以當作便利貼、提醒事項、紀錄大小事、作為一張空白紙讓你輕鬆無負擔的使用
 - - -
 ## 安裝
-v1.0.1 : [下載連結](https://drive.google.com/file/d/1WHCyB2KvdhPbqyZviFLLB5fA6_K_EtOe/view?usp=sharing)
+v1.0 : [下載連結](https://drive.google.com/file/d/1WHCyB2KvdhPbqyZviFLLB5fA6_K_EtOe/view?usp=sharing)
 
 
 ## 使用
@@ -14,19 +14,12 @@ v1.0.1 : [下載連結](https://drive.google.com/file/d/1WHCyB2KvdhPbqyZviFLLB5f
 <details>
 <summary>使用說明</summary>
 
->第一次開啟需要到
- 系統偏好設定 > 安全性與隱私 > 一般 > 允許以下來源下載 
-選擇 已識別的開發者 
-有顯示打開按鈕的話也按打開
-![image](https://github.com/a841223o/EmptyText/blob/master/readmeSource/open.png)
-
 >開啟 app 後會在右上方狀態欄看見圖標
 ![image](https://github.com/a841223o/EmptyText/blob/master/readmeSource/statusBar.png)
 
 
 > command+C 複製內容後
-透過快速鍵 command+shift+C 可將內容貼到 app 中
-app 不在主畫面上也能貼透過快速鍵貼上
+透過快速鍵 command+shift+C 將內容貼到 app 中
 ![image](https://github.com/a841223o/EmptyText/blob/master/readmeSource/C.gif)
 
 
