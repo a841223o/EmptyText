@@ -96,7 +96,21 @@ class PopoverManager {
         if window != nil {
             self.detachedWindow = window!
         }
-        
+    }
+    
+    func firstShowPopDetch(){
+        let window = popoverVC.detachableWindow(for: popover)
+        window?.titlebarAppearsTransparent = true
+        window?.titleVisibility = .hidden
+        window?.styleMask.insert(NSWindow.StyleMask.fullSizeContentView)
+        window?.backgroundColor = ColorManager.instance.backgroundColor
+        let screen = NSScreen.main
+        window?.setFrame(NSRect.init(x: (screen?.frame.width)!*0.8, y: 0.0, width: (screen?.frame.width)!/5, height: (screen?.frame.height)!), display: true)
+        windowController = NSWindowController.init(window: window)
+        windowController?.showWindow(nil)
+        if window != nil {
+            self.detachedWindow = window!
+        }
     }
     
     func setWindowColor(){

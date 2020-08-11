@@ -23,6 +23,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.action = #selector(toggle(_:))
         }
         HotKeyManager.instance.setupHandle()
+        PopoverManager.instance.firstShowPopDetch()
     }
     
 
