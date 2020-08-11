@@ -18,6 +18,7 @@ v1.0.1 : [下載連結](https://drive.google.com/file/d/1WHCyB2KvdhPbqyZviFLLB5f
  系統偏好設定 > 安全性與隱私 > 一般 > 允許以下來源下載 
 選擇 已識別的開發者 
 有顯示打開按鈕的話也按打開
+
 ![image](https://github.com/a841223o/EmptyText/blob/master/readmeSource/open.png)
 
 >開啟 app 後會在右上方狀態欄看見圖標
