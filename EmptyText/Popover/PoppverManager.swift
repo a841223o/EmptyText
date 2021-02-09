@@ -30,7 +30,6 @@ class PopoverManager {
         detachedWindow.isReleasedWhenClosed = true
         popover.setContentViewController(popoverVC)
         popover.delegate = popoverVC
-        
     }
     func setWindowAlpha(opacity:CGFloat){
         guard let controller = windowController else{

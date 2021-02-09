@@ -17,6 +17,7 @@ class PopoverViewController: NSViewController {
     @IBOutlet var textView: NSTextView!
     @IBOutlet weak var alphaBtn: NSButton!
     @IBOutlet weak var toolbarView: NSView!
+    @IBOutlet weak var textTageView: TextTagPointView!
     
     var opacityIsOpen  = false
     var textSize = NSFont.systemFontSize

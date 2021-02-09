@@ -20,6 +20,8 @@
 		B37842F024D7F16300023758 /* E.gif in Resources */ = {isa = PBXBuildFile; fileRef = B37842EC24D7F16300023758 /* E.gif */; };
 		B37842F124D7F16300023758 /* D.gif in Resources */ = {isa = PBXBuildFile; fileRef = B37842ED24D7F16300023758 /* D.gif */; };
 		B37842F324D8034200023758 /* donate.gif in Resources */ = {isa = PBXBuildFile; fileRef = B37842F224D8034200023758 /* donate.gif */; };
+		B37842F724E52A7200023758 /* TextTagPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37842F624E52A7200023758 /* TextTagPointView.swift */; };
+		B37842F924EE7A6B00023758 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37842F824EE7A6B00023758 /* TagModel.swift */; };
 		B3976BBA2456EFA600527661 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3976BB92456EFA600527661 /* EventMonitor.swift */; };
 		B3976BC3245A9D2B00527661 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3976BC2245A9D2B00527661 /* HotKeyManager.swift */; };
 		B3AAA20F244EADA2001AF532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AAA20E244EADA2001AF532 /* AppDelegate.swift */; };
@@ -68,6 +70,8 @@
 		B37842EC24D7F16300023758 /* E.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = E.gif; sourceTree = "<group>"; };
 		B37842ED24D7F16300023758 /* D.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = D.gif; sourceTree = "<group>"; };
 		B37842F224D8034200023758 /* donate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = donate.gif; sourceTree = "<group>"; };
+		B37842F624E52A7200023758 /* TextTagPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTagPointView.swift; sourceTree = "<group>"; };
+		B37842F824EE7A6B00023758 /* TagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
 		B3976BB92456EFA600527661 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 		B3976BC2245A9D2B00527661 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
 		B3AAA20B244EADA2001AF532 /* EmptyText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyText.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +146,8 @@
 			children = (
 				B3AAA2402451681D001AF532 /* PoppverManager.swift */,
 				B3AAA23C244ECB0D001AF532 /* PopoverViewController.swift */,
+				B37842F624E52A7200023758 /* TextTagPointView.swift */,
+				B37842F824EE7A6B00023758 /* TagModel.swift */,
 			);
 			path = Popover;
 			sourceTree = "<group>";
@@ -488,12 +494,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37842E224D1714D00023758 /* Defaults.swift in Sources */,
+				B37842F924EE7A6B00023758 /* TagModel.swift in Sources */,
 				B37842D724D1445E00023758 /* ColorManager.swift in Sources */,
 				B37842DD24D1466100023758 /* ColorSetViewController.swift in Sources */,
 				B3AAA211244EADA2001AF532 /* ViewController.swift in Sources */,
 				B3976BBA2456EFA600527661 /* EventMonitor.swift in Sources */,
 				B3AAA23E244ECB0D001AF532 /* PopoverViewController.swift in Sources */,
 				B3AAA2412451681D001AF532 /* PoppverManager.swift in Sources */,
+				B37842F724E52A7200023758 /* TextTagPointView.swift in Sources */,
 				B3AAA20F244EADA2001AF532 /* AppDelegate.swift in Sources */,
 				B3976BC3245A9D2B00527661 /* HotKeyManager.swift in Sources */,
 			);

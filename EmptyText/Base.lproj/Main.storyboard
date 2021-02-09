@@ -698,7 +698,7 @@
         <scene sceneID="i4p-zC-euK">
             <objects>
                 <viewController storyboardIdentifier="PopoverViewController" id="fZN-qJ-4pU" customClass="PopoverViewController" customModule="EmptyText" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="2ep-oP-jz1">
+                    <view key="view" wantsLayer="YES" id="2ep-oP-jz1">
                         <rect key="frame" x="0.0" y="0.0" width="335" height="299"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
@@ -829,7 +829,7 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <size key="minSize" width="320" height="269"/>
-                                            <size key="maxSize" width="470" height="10000000"/>
+                                            <size key="maxSize" width="655" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         </textView>
                                     </subviews>
@@ -839,20 +839,28 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="unI-q3-Bml" customClass="TextTagPointView" customModule="EmptyText" customModuleProvider="target">
+                                <rect key="frame" x="320" y="0.0" width="15" height="269"/>
+                            </customView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="K2a-zO-8Io" firstAttribute="top" secondItem="vdj-tC-YjW" secondAttribute="bottom" id="XUd-rR-3hw"/>
+                            <constraint firstItem="unI-q3-Bml" firstAttribute="centerY" secondItem="zbH-fW-nuc" secondAttribute="centerY" id="34G-dQ-XdF"/>
+                            <constraint firstItem="K2a-zO-8Io" firstAttribute="top" secondItem="vdj-tC-YjW" secondAttribute="bottom" id="BKv-df-1HX"/>
+                            <constraint firstAttribute="bottom" secondItem="K2a-zO-8Io" secondAttribute="bottom" id="GNX-KR-8UW"/>
+                            <constraint firstItem="unI-q3-Bml" firstAttribute="trailing" secondItem="DcK-04-E5J" secondAttribute="trailing" id="S7Y-0V-TjL"/>
                             <constraint firstItem="vdj-tC-YjW" firstAttribute="top" secondItem="2ep-oP-jz1" secondAttribute="top" id="aeV-dv-Ps1"/>
                             <constraint firstItem="K2a-zO-8Io" firstAttribute="leading" secondItem="2ep-oP-jz1" secondAttribute="leading" id="dCM-AT-rWN"/>
+                            <constraint firstItem="unI-q3-Bml" firstAttribute="height" secondItem="zbH-fW-nuc" secondAttribute="height" id="deU-cF-ULX"/>
                             <constraint firstItem="vdj-tC-YjW" firstAttribute="leading" secondItem="2ep-oP-jz1" secondAttribute="leading" id="fB9-QE-HWr"/>
                             <constraint firstAttribute="trailing" secondItem="K2a-zO-8Io" secondAttribute="trailing" id="jxP-Ns-AJv"/>
                             <constraint firstAttribute="trailing" secondItem="vdj-tC-YjW" secondAttribute="trailing" id="mJE-Yb-4t1"/>
-                            <constraint firstAttribute="bottom" secondItem="K2a-zO-8Io" secondAttribute="bottom" id="nsE-EV-yV2"/>
+                            <constraint firstItem="unI-q3-Bml" firstAttribute="leading" secondItem="DcK-04-E5J" secondAttribute="leading" id="wOo-KG-Nea"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="alphaBtn" destination="k9g-rb-T0F" id="L5L-ze-uCG"/>
                         <outlet property="scrollerView" destination="K2a-zO-8Io" id="mhU-6T-VnT"/>
+                        <outlet property="textTageView" destination="unI-q3-Bml" id="Zrk-9M-Xbh"/>
                         <outlet property="textView" destination="zbH-fW-nuc" id="ORg-xI-cKO"/>
                         <outlet property="thisView" destination="2ep-oP-jz1" id="6ak-LO-pUv"/>
                         <outlet property="toolbarView" destination="vdj-tC-YjW" id="WA2-23-8yi"/>
@@ -862,7 +870,7 @@
                 </viewController>
                 <customObject id="Kej-Jy-t1X" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-78" y="1006.5"/>
+            <point key="canvasLocation" x="-184.5" y="1021.5"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="RIn-L0-5ay">
@@ -883,7 +891,7 @@
                 </windowController>
                 <customObject id="LSl-b0-rIG" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="363" y="1021"/>
+            <point key="canvasLocation" x="314" y="1027"/>
         </scene>
         <!--Color Set View Controller-->
         <scene sceneID="CIg-3I-jIk">
